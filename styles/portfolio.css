@@ -3,7 +3,9 @@
     font-family: "Fira Sans", serif;
     font-style: normal;
   }
-  
+  .items-02{
+    background-color: #F5F5F5;
+  }
 nav{  
     display: flex; 
     align-items:center;
@@ -29,12 +31,12 @@ nav li a{
     contain:none;
 }
 .btn-primary{
-font-weight: 600px;
+font-weight: 700;
 color: #006A50;
 padding: 15px 30px;
 border-radius: 8px;
 border-color: #006A50;
-border: 2px solid #006A50
+border: 1px solid #006A50
 }
 .drk-02{
     color: #0E0E0E;
@@ -65,7 +67,10 @@ border: 2px solid #006A50
     font-size: 18px;
     font-weight: 600;
     border-radius: 8px;
-    border-color: none;
+    border: 0px;
+    border-color:solid none;
+    color: #FFFFFF;
+    
 }
 .btn-pad{
     padding: 17px 34px;
@@ -73,4 +78,97 @@ border: 2px solid #006A50
 .banner-profile-pic{
     width: 474px;
     height: 400px;
+}
+.section-title{
+    font-weight: 40;
+    font-weight: bold;
+}
+.section-container{
+    font-weight: 700;
+    font-size: 20;
+    opacity: 80%;
+}
+main section{
+    margin-top: 80px;
+}
+.about{
+    margin: 19px 120px 0px 120px;
+    max-width: 1280px;
+}
+.div-head{
+     display: flex;
+    gap: 24px;
+    justify-content: space-around;
+}
+.div-title{
+    border-radius: 16px;
+    box-sizing: content-box;
+    padding: 30px;
+}
+.Pillars-des {
+    font-weight: 400;
+    font-size: 16;
+    opacity: 70%;
+}
+.Pillars{
+    opacity: 80%;
+}
+
+.vision{
+    display: flex;
+    gap: 24px;
+    justify-content:space-between;
+    max-width: 1280px;
+    max-height: 325px;
+}
+.vision-digit{
+    background-color: #548ff538;
+    padding: 32px;
+    border-radius: 16px;
+    width:fill;
+    height:fit-content;
+}
+.vision-green{
+    background-color:#C6E4D6;
+    padding: 32px;
+    border-radius: 16px;
+    width:fit-content;
+    height:fit-content;
+}
+.vision-icon{
+    font-weight: 800;
+    font-size: 48px;
+}
+.vision-modern{
+    background-color: #F7EBCF;
+    padding: 32px;
+    border-radius: 16px;
+    width:fit-content;
+    height:fit-content;
+}
+.btn-learn{
+    padding: 11px 20px;
+    border-radius: 8px;
+    border: 0px ;
+    padding: 11px 20px;
+    font-weight: 600;
+    font-size: 16;
+    color: #FFFFFF;
+}
+.btn-blue{
+    background-color: #5490F5;
+}
+.btn-green{
+    background-color: #09A15C;
+}
+.btn-yellow{
+    background-color: #FFC239;
+}
+.box-right{
+    justify-content: space-between;
+}
+.bd-launch{
+}
+.satelite1{
+    border-radius: 24px;
 }
