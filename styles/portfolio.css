@@ -159,7 +159,7 @@ main section{
     background-color: #FFFFFF ;
     border-radius: 16px;
     padding: 48px 24px 48px 24px;
-    background-image: url(/assets/quote-bg.png);
+    background-image: url(./assets/quote-bg.png);
     background-repeat: no-repeat;
     background-position:top 25px left 24px ;
 }
